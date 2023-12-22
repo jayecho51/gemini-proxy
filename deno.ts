@@ -1,6 +1,6 @@
 import { serve } from "https://deno.land/std@0.181.0/http/server.ts";
 
-const DEEPAI_API_HOST = "generativelanguage.googleapis.com";
+const DEEPAI_API_HOST = "www.googleapis.com";
 
 serve(async (request) => {
   const url = new URL(request.url);
